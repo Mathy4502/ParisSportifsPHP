@@ -1,0 +1,11 @@
+
+
+	CR 20/11/2020
+
+MàJ php => nos versions étant trop anciennes nous avons donc dû mettre la mise à jour 7.3.21 afin qu'elle soit compatible avec composer
+
+Installation composer => nous avons ensuite suivi la procédure afin d'installer composer sur nos machines bien que  cela fût fastidieux
+
+Installation laravel => en cours, erreur rencontré "Could not open input file: composer.phar"
+
+Debut de recherche d'architecture sur des sites de paris sportifs
