@@ -73,3 +73,21 @@ CREATE TABLE Utilisateur
         datePari DATE
 
     );
+
+
+        CREATE SEQUENCE public.mesFacturesSequence
+        INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+        CREATE TABLE mesFactures
+        (
+            idMesFactures integer NOT NULL DEFAULT nextval('mesFacturesSequence'
+            ::regclass),
+        idUser INT,
+        argent FLOAT,
+        dateTrans DATE,
+        statut CHAR
+    );
