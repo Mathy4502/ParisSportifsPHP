@@ -31,7 +31,7 @@ CREATE TABLE Utilisateur
 
     CREATE TABLE Pari
     (
-        idParis integer NOT NULL DEFAULT nextval('pariSequence'
+        idPari integer NOT NULL DEFAULT nextval('pariSequence'
         ::regclass),
         intitulé CHAR,
         categorie CHAR,
@@ -48,5 +48,28 @@ CREATE TABLE Utilisateur
         dateEndParis DATE,
         gainBanque FLOAT,
         perteBanque FLOAT
+
+    );
+
+
+
+
+    CREATE SEQUENCE public.mesParisSequence
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+    CREATE TABLE mesParis
+    (
+        idmesParis integer NOT NULL DEFAULT nextval('mesParisSequence'
+        ::regclass),
+        idUser INT,
+        idPari INT,
+        monVote CHAR,
+        maMise CHAR,
+        monResultat BOOLEAN,
+        datePari DATE
 
     );
