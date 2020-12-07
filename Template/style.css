@@ -176,6 +176,28 @@ a,
 	transition: all .3s ease-in-out;
 }
 
+  
+  .button1 {
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: auto;
+	margin-top: 10px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color :#0e55b6;
+	color: white;
+  }
+  
+  .button1:hover {
+	background-color:#d8302f;
+	color: white;
+  }
+
 .btn-custom {
 	margin-top: 20px;
 	background-color: transparent !important;
