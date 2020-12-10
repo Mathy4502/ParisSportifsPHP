@@ -223,7 +223,7 @@ header {
   float: left;
   width: 100%;
   min-height: auto;
-  background: #fff;
+  background: ghostwhite;
 }
 .main-menu-section {
   float: right;
@@ -512,7 +512,7 @@ div.menu .dropdown-menu {
   font-style: italic;
   font-weight: 300;
   font-size: 18px;
-  background: ;
+  background: ghostwhite;
   border: solid #d8302f 2px;
 }
 .search-bar {
@@ -617,8 +617,8 @@ div.full-slider .carousel-indicators {
 .matchs-vs {
   float: left;
   width: 100%;
-  background: #d8302f;
-  color: #fff;
+  background: ghostwhite;
+  color: black;
   min-height: 175px;
   padding: 0 0;
   justify-content: center;
@@ -627,7 +627,7 @@ div.full-slider .carousel-indicators {
 .matchs-info {
   float: left;
   width: 100%;
-  background: #d8302f;
+  background: ghostwhite;
 }
 .about-us {
   float: left;
@@ -733,7 +733,7 @@ section#contant {
   float: left;
   width: 100%;
   padding: 50px 0 25px;
-  background: #fff;
+  background: ghostwhite;
 }
 #sidebar {
   float: left;
@@ -1695,7 +1695,7 @@ section#contant .blog-sidebar div.category-menu li span {
 }
 #contactform ul li input.thbg-color:hover,
 #contactform ul li input.thbg-color:focus {
-  background: #111;
+  background: #0e55b6;
 }
 section#contant .blog-sidebar div.category-menu ul li:last-child {
   border-bottom: none;
