@@ -42,3 +42,11 @@ body {
   margin: auto;
   padding-bottom: 20px;
 }
+.txt3 {
+  position: absolute;
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #ffcb05;
+  line-height: 1.5;
+  padding: 10px;
+}

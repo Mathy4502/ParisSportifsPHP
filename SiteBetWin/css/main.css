@@ -91,6 +91,10 @@ input {
   outline: none;
   border: none;
 }
+/*
+.back {
+  padding: 10px;
+}*/
 
 textarea {
   outline: none;
@@ -183,6 +187,19 @@ iframe {
   font-size: 13px;
   color: #ffcb05;
   line-height: 1.5;
+}
+
+.txt3 {
+  position: absolute;
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #ffcb05;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.back {
+  position: relative;
 }
 
 /*//////////////////////////////////////////////////////////////////
