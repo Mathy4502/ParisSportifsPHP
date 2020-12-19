@@ -1,0 +1,73 @@
+.match {
+    float: left;
+    width: 100%;
+    background: ghostwhite;
+    color: black;
+    min-height: 175px;
+    padding: 0 0;
+    justify-content: center;
+    display: flex;
+}
+
+.pari {
+    border-radius: 15%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.button1 {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #0e55b6;
+    color: white;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.matchs-vs {
+    float: left;
+    width: 100%;
+    background: ghostwhite;
+    padding-top: 50px;
+    color: black;
+    min-height: 175px;
+    padding: 0 0;
+    justify-content: center;
+    display: flex;
+}
+
+.row1 {
+    padding-top: 50%;
+    max-width: 450px;
+    margin-left: 100px;
+}
+
+.choix {
+    background-color: ghostwhite;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 550px;
+    height: 350px;
+    float: right;
+    margin: 225px 100px 0px 0px;
+    text-align: center;
+}
+
+span {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
